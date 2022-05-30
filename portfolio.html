@@ -10,16 +10,18 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/common.css" />
+    <link rel="stylesheet" href="./styles/portfolio.css" />
     <title>portfolio</title>
 
   <body>
     <!-- header -->
     <header>
       <nav>
-        <!-- <a href="/"> <img src="./image/logo.webp" alt="Logo" /></a> -->
-        <a href="index.html" class="logo"><span class="logo-web">Web</span>Studio</a>
-        <ul>
+        <a href="./index.html" class="logo header"
+          ><span class="logo-web">Web</span>Studio</a
+        >
+        <ul class="nav">
           <li>
             <a href="./index.html">Студия</a>
           </li>
@@ -27,7 +29,7 @@
           <li><a href="#">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul class="footer-adress">
         <li>
           <a href="malito:info@devstudio.com">info@devstudio.com</a>
         </li>
@@ -36,69 +38,69 @@
     </header>
     <!-- main -->
     <main>
-      <!-- buttons -->
+      <!-- filter -->
       <div>
-        <ul>
-            <li><button type="button">Все</button></li>
-            <li><button type="button">Веб-сайты</button></li>
-            <li><button type="button">Приложения</button></li>
-            <li><button type="button">Дизайн</button></li>
-            <li><button type="button">Маркетинг</button></li>
+        <ul class="filter-btn">
+            <li><button class="item-filter" type="button">Все</button></li>
+            <li><button class="item-filter" type="button">Веб-сайты</button></li>
+            <li><button class="item-filter" type="button">Приложения</button></li>
+            <li><button class="item-filter" type="button">Дизайн</button></li>
+            <li><button class="item-filter" type="button">Маркетинг</button></li>
         </ul>
       </div>
 
       <!-- site -->
 
-      <ul>
-      <li>
+      <ul class="exampl-list">
+      <li class="exampl-item">
         <img src="./image/imgp1.jpg" alt="Технокряк" width="370" height="294"/>
           <h3>Технокряк</h3>
           <p>Веб-сайт</p>
         </li>
 
-      <li>
+      <li class="exampl-item">
         <img src="./image/imgp2.jpg" alt="Постер New Orlean vs Golden Star" width="370" height="294"/>
           <h3>Постер New Orlean vs Golden Star</h3>
           <p>Дизайн</p>
-</li>
+      </li>
 
-      <li>
+      <li class="exampl-item">
         <img src="./image/imgp3.jpg" alt="Ресторан Seafood" width="370" height="294"/>
           <h3>Ресторан Seafood</h3>
           <p>Приложение</p>
        </li>
 
-      <li>
+      <li class="exampl-item">
         <img src="./image/imgp4.jpg" alt="Проект Prime" width="370" height="294"/>
           <h3>Проект Prime</h3>
           <p>Маркетинг</p>
        </li>
 
-      <li>
+      <li class="exampl-item">
         <img src="./image/imgp5.jpg" alt="Проект Boxes " width="370" height="294"/>
           <h3>Проект Boxes</h3>
           <p>Приложение</p>
      </li>
 
-      <li>
+      <li class="exampl-item">
         <img src="./image/imgp6.jpg" alt="Inspiration has no Borders " width="370" height="294"/>
           <h3>Inspiration has no Borders</h3>
           <p>Веб-сайт</p>
       </li>
 
-      <li>
+      <li class="exampl-item">
         <img src="./image/imgp7.jpg" alt="Издание Limited Edition " width="370" height="294"/>
           <h3>Издание Limited Edition</h3>
           <p>Дизайн</p>
       </li>
 
-      <li>
+      <li class="exampl-item">
         <img src="./image/imgp8.jpg" alt="Проект LAB " width="370" height="294"/>
           <h3>Проект LAB</h3>
           <p>Маркетин</p>
       </li>
 
-      <li>
+      <li class="exampl-item">
         <img src="./image/imgp9.jpg" alt="Growing Business " width="370" height="294"/>
           <h3>Growing Business</h3>
           <p>Приложение</p>
@@ -108,10 +110,13 @@
     </main>
     <!-- footer -->
     <footer>
-      <a href="/" class="logo"><span class="logo-web">Web</span>Studio</a>
+      <!-- <a href="/"> <img src="./image/logo.webp" alt="Logo" /></a> -->
+      <a href="/" class="logo footer"
+        ><span class="logo-web">Web</span>Studio</a
+      >
       <address>
-        г. Киев, пр-т Леси Украинки, 26 <br>
-        <a href="malito:info@devstudio.com">info@devstudio.com </a><br>
+        г. Киев, пр-т Леси Украинки, 26<br />
+        <a href="malito:info@devstudio.com">info@devstudio.com </a><br />
         <a href="tel:+380961111111">+38 096 111 11 11</a>
       </address>
     </footer>

@@ -1,0 +1,88 @@
+:root {
+    --color-blue: #2196F3;
+    --color-title: #212121;
+    --color-text: #757575;
+    --color-hero: #ffffff;
+    --color-bg-first: #ffffff;
+    --color-bg-hero: #2F303A;
+    --color-bg-second: #F5F4FA;
+    
+}
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-text);
+    background: #FFFFFF;
+    /* background-image: linear-gradient(blue, yellow); */
+
+}
+
+body a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Header */
+header {
+    background: var(--color-bg-first);
+    color: var(--color-title);
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.logo.header {
+    color: var(--color-title);
+}
+
+.logo.footer {
+    color: var(--color-bg-first);
+}
+
+.logo span {
+    color: var(--color-blue);
+}
+
+.logo:focus {
+    color: var(--color-blue);
+}
+
+.nav a {
+    color: var(--color-title);
+}
+
+.nav a:hover,
+.nav a:focus {
+    color: var(--color-blue);
+}
+
+.footer-adress a {
+    color: var(--color-text);
+}
+
+.footer-adress a:hover,
+.footer-adress a:focus {
+    color: var(--color-blue);
+}
+
+
+/* footer */
+footer {
+    background: var(--color-bg-hero);
+    color: var(--color-hero);
+}
+
+footer a {
+    color: #ffffff60;
+}

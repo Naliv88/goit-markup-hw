@@ -1,21 +1,27 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    
+
+
+
+/* main */
+.section .section-title{
+    color: var(--color-title);
 }
-ul{
-    list-style: none;
+/* hero */
+.hero{
+    background: var(--color-bg-hero);
+    color: var(--color-hero);
+
+}
+.hero-btn{
+    background: var(--color-blue);
+    color: var(--color-hero);
+}
+/* description */
+.list-description h3{
+    color: var(--color-title);
 }
 
-.logo{
-    font-family: 'Raleway', sans-serif ;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    color: #000000;
-    text-decoration: none;
+.section.section-bg{
+    background: var(--color-bg-second);
 }
-.logo-web{
-    color: blue;
-}
+
+

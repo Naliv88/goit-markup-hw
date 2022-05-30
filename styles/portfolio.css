@@ -1,0 +1,17 @@
+
+.filter-btn .item-filter{
+    color: var(--color-title);
+    background: var(--color-bg-second);
+    border-radius: 4px;
+}
+
+.filter-btn .item-filter:hover, .filter-btn .item-filter:focus{
+    color: var(--color-hero);
+    background: var(--color-blue);
+}
+.exampl-item>h3{
+    color: var(--color-title);
+}
+.exampl-item>p{
+    color: var(--color-text);
+}
