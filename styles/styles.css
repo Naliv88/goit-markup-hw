@@ -1,6 +1,6 @@
 
 
-
+/* Page Index */
 /* main */
 .section .section-title{
     color: var(--color-title);
@@ -32,4 +32,59 @@
 
 .uppertext{
     text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+/* Page Portfolio */
+
+.filter-btn .button {
+    color: var(--color-title);
+    background: var(--color-bg-second);
+
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    border-radius: 4px;
+
+    
+}
+
+.filter-btn{
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+}
+
+.filter-btn .button:hover,
+.filter-btn .button:focus {
+    color: var(--color-hero);
+    background: var(--color-blue);
+
+}
+
+.exampl-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.exampl-item h2 {
+    color: var(--color-title);
+}
+
+.exampl-item p {
+    color: var(--color-text);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+
 }

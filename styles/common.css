@@ -9,6 +9,12 @@
     
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     color: var(--color-text);
     background: var(--color-bg-first);
@@ -35,6 +41,11 @@ address{
 /* Header */
 header {
     color: var(--color-title);
+    display: flex;
+    /* flex-direction: row; */
+}
+nav{
+    display: flex;
 }
 
 .logo {
@@ -69,6 +80,8 @@ header {
 .nav-item:hover,
 .nav-item:focus {
     color: var(--color-blue);
+
+    border:5px, solid, var(--color-blue);
 
 }
 
