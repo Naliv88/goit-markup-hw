@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <title>Home Work</title>
+    <!-- <link rel="stylesheet" href="./styles/normalize.css" /> -->
     <link rel="stylesheet" href="./styles/common.css" />
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
@@ -18,62 +19,70 @@
     <!-- header -->
     <header>
       <nav>
+        <!-- Logo header -->
         <a href="./index.html" class="logo header"
           ><span class="logo-web">Web</span>Studio</a
         >
+        <!-- navigation link -->
         <ul class="nav">
-          <li>
-            <a href="./index.html">Студия</a>
-          </li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="#">Контакты</a></li>
+          <li><a class="nav-item" href="./index.html">Студия</a></li>
+          <li><a class="nav-item" href="./portfolio.html">Портфолио</a></li>
+          <li><a class="nav-item" href="#">Контакты</a></li>
         </ul>
+        <!-- contact header -->
       </nav>
-      <ul class="footer-adress">
+      <ul class="contact header">
         <li>
-          <a href="malito:info@devstudio.com">info@devstudio.com</a>
+          <a class="contact-mail" href="malito:info@devstudio.com"
+            >info@devstudio.com</a
+          >
         </li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li>
+          <a class="contact-phone" href="tel:+380961111111"
+            >+38 096 111 11 11</a
+          >
+        </li>
       </ul>
     </header>
     <!-- main -->
     <main>
       <!-- Hero -->
       <section class="hero">
-        <h1 class="hero-title">Эффективные решения<br />для вашего бизнеса</h1>
+        <h1 class="hero-title uppertext">
+          Эффективные решения<br />для вашего бизнеса
+        </h1>
         <button type="button" id="orderServices" class="hero-btn">
           Заказать услугу
         </button>
-        <!-- <a href="#">Заказать услугу</a> -->
       </section>
 
-      <!-- description -->
+      <!-- advantages -->
       <section class="section">
-        <h2 class="section-title">Our advantages</h2>
+        <h2 class="section-title">Наши преимущества</h2>
         <ul class="list-description">
           <li>
-            <h3>Внимание к деталям</h3>
+            <h3 class="uppertext">Внимание к деталям</h3>
             <p>
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li>
-            <h3>Пунктуальность</h3>
+            <h3 class="uppertext">Пунктуальность</h3>
             <p>
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li>
-            <h3>Планирование</h3>
+            <h3 class="uppertext">Планирование</h3>
             <p>
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li>
-            <h3>Современные технологии</h3>
+            <h3 class="uppertext">Современные технологии</h3>
             <p>
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
@@ -106,7 +115,7 @@
           </li>
         </ul>
       </section>
-      <!-- about -->
+      <!-- persons -->
       <section class="section section-bg">
         <h2 class="section-title">Наша команда</h2>
         <ul class="list-description">
@@ -155,14 +164,19 @@
     </main>
     <!-- footer -->
     <footer>
-      <!-- <a href="/"> <img src="./image/logo.webp" alt="Logo" /></a> -->
+      <!-- logo footer -->
       <a href="/" class="logo footer"
         ><span class="logo-web">Web</span>Studio</a
       >
-      <address>
-        г. Киев, пр-т Леси Украинки, 26<br />
-        <a href="malito:info@devstudio.com">info@devstudio.com </a><br />
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
+      <!-- contacts footer -->
+      <address class="contact footer">
+        <span class="contact-addres">
+          г. Киев, пр-т Леси Украинки, 26<br
+        /></span>
+        <a class="contact-mail" href="malito:info@devstudio.com"
+          >info@devstudio.com </a
+        ><br />
+        <a class="contact-phone" href="tel:+380961111111">+38 096 111 11 11</a>
       </address>
     </footer>
   </body>

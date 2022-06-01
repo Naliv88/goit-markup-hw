@@ -14,6 +14,12 @@
 .hero-btn{
     background: var(--color-blue);
     color: var(--color-hero);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.hero-btn:hover, .hero-btn:focus{
+    background: #188CE8;
 }
 /* description */
 .list-description h3{
@@ -24,4 +30,6 @@
     background: var(--color-bg-second);
 }
 
-
+.uppertext{
+    text-transform: uppercase;
+}

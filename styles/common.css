@@ -10,69 +10,80 @@
 }
 
 body {
-
-    font-family: 'Roboto', sans-serif;
     color: var(--color-text);
-    background: #FFFFFF;
-    /* background-image: linear-gradient(blue, yellow); */
+    background: var(--color-bg-first);
+
+    font-family: 'Roboto', sans-serif ;
+    font-style: normal;
+    letter-spacing: 0.03em;
 
 }
 
 body a {
     text-decoration: none;
+    color: inherit;
 }
 
 ul {
     list-style: none;
 }
 
+address{
+    font-style: normal;
+}
+
 /* Header */
 header {
-    background: var(--color-bg-first);
     color: var(--color-title);
 }
 
 .logo {
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
+    line-height: 1.2;
     text-decoration: none;
-}
-
-.logo.header {
-    color: var(--color-title);
 }
 
 .logo.footer {
     color: var(--color-bg-first);
 }
 
-.logo span {
+.logo-web {
     color: var(--color-blue);
 }
 
 .logo:focus {
-    color: var(--color-blue);
+    opacity: 0.8;
 }
 
-.nav a {
+.nav-item {
     color: var(--color-title);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 
-.nav a:hover,
-.nav a:focus {
+.nav-item:hover,
+.nav-item:focus {
     color: var(--color-blue);
+
 }
 
-.footer-adress a {
+.contact a {
     color: var(--color-text);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
 }
 
-.footer-adress a:hover,
-.footer-adress a:focus {
+.contact a:hover,
+.contact a:focus {
     color: var(--color-blue);
 }
 
@@ -81,6 +92,7 @@ header {
 footer {
     background: var(--color-bg-hero);
     color: var(--color-hero);
+
 }
 
 footer a {
