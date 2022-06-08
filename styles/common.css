@@ -9,10 +9,13 @@
     
 }
 
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
+*, ::after, ::before {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    color: inherit; 
+
 }
 
 body {
@@ -22,31 +25,55 @@ body {
     font-family: 'Roboto', sans-serif ;
     font-style: normal;
     letter-spacing: 0.03em;
+    
 
 }
 
-body a {
-    text-decoration: none;
-    color: inherit;
-}
 
-ul {
-    list-style: none;
-}
 
-address{
+address, #text{
     font-style: normal;
 }
 
 /* Header */
-header {
-    color: var(--color-title);
+
+
+
+
+.page-header{
+
+  
+    height: 80px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
-    /* flex-direction: row; */
+    
 }
-nav{
+.page-nav{
     display: flex;
+    align-items: center;
 }
+ .menu{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 93px;
+    width: 295px;
+ }
+
+ .contact-container{
+     display: flex;
+     
+ }
+
+.contact.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 330px;
+    width: 305px;
+  
+ }
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -54,21 +81,25 @@ nav{
     font-size: 26px;
     line-height: 1.2;
     text-decoration: none;
-}
-
-.logo.footer {
-    color: var(--color-bg-first);
-}
-
-.logo-web {
     color: var(--color-blue);
+      
+}
+.logo-web{
+     width: 55px;
+     
+}
+
+.logo.header .logo-web {
+    color: var(--color-title);
+
 }
 
 .logo:focus {
     opacity: 0.8;
 }
 
-.nav-item {
+
+.menu-item {
     color: var(--color-title);
 
     font-weight: 500;
@@ -77,13 +108,14 @@ nav{
     letter-spacing: 0.02em;
 }
 
-.nav-item:hover,
-.nav-item:focus {
+.menu-item:hover,
+.menu-item:focus {
     color: var(--color-blue);
 
     border:5px, solid, var(--color-blue);
 
 }
+
 
 .contact a {
     color: var(--color-text);
@@ -105,9 +137,37 @@ nav{
 footer {
     background: var(--color-bg-hero);
     color: var(--color-hero);
+    height: 250px;
+    padding-top: 60px;
+}
+
+.page-footer{
+    /* margin-left: 215px; */
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
-footer a {
+.contact.footer a {
     color: #ffffff60;
+}
+
+.logo.footer .logo-web {
+
+    color: var(--color-bg-first);
+   
+}
+.contact.footer{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+
+    margin-top: 20px;
+
+    width: 230px;
+    height: 80px;
+}
+.footer li{
+    margin-bottom: 10px;
 }
